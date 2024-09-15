@@ -37,6 +37,7 @@ return {
       cmake = { 'cmakelang' },
       ruby = { 'rubocop' },
       json = { 'jq' },
+      markdown = { 'markdownlint' },
     },
   },
 }
