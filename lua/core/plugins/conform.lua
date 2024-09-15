@@ -26,17 +26,17 @@ return {
         lsp_format_opt = 'fallback'
       end
       return {
-        timeout_ms = 500,
+        timeout_ms = 1500,
         lsp_format = lsp_format_opt,
       }
     end,
     formatters_by_ft = {
       lua = { 'stylua' },
-      -- Conform can also run multiple formatters sequentially
-      -- python = { "isort", "black" },
-      --
-      -- You can use 'stop_after_first' to run the first available formatter from the list
-      -- javascript = { "prettierd", "prettier", stop_after_first = true },
+      python = { 'isort', 'black' },
+      cpp = { 'clang-format' },
+      cmake = { 'cmakelang' },
+      ruby = { 'rubocop' },
+      json = { 'jq' },
     },
   },
 }
