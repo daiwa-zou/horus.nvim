@@ -157,8 +157,8 @@ return {
       dockerls = {},
       docker_compose_language_service = {},
       jsonls = {},
-      ruby_lsp = {},
-      pyright = {},
+      pylsp = {},
+      -- ruby_lsp = {},
       -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
       --
       -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -202,7 +202,7 @@ return {
       'black', -- Used to format python code
       'isort', -- Used to sort python imports
       'cmakelang', -- Used to format cmakefile
-      'rubocop', -- Used to format ruby
+      -- 'rubocop', -- Used to format ruby
       'jq', -- Used to format json
       -- Linter
       'cpplint',
