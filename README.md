@@ -1,9 +1,11 @@
 # horus.nvim
 
-   /\_/\
-  ((@v@))
-  ():::()
-   VV-VV
+```ascii
+     /\_/\
+    ((@v@))
+    ():::()
+     VV-VV
+```
 
 ## Description
 
