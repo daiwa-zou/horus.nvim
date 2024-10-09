@@ -33,5 +33,5 @@ External Requirements:
 ### Install Configuration
 
 ```sh
-git clone https://github.com/daiwa-zou/horus.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone git@github.com:daiwa-zou/horus.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
