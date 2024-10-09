@@ -202,7 +202,6 @@ return {
       'black', -- Used to format python code
       'isort', -- Used to sort python imports
       'cmakelang', -- Used to format cmakefile
-      -- 'rubocop', -- Used to format ruby
       'jq', -- Used to format json
       -- Linter
       'cpplint',
@@ -210,6 +209,7 @@ return {
       'pylint',
       'shellcheck',
       'markdownlint',
+      'cmakelint',
     })
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 

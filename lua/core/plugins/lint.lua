@@ -8,7 +8,7 @@ return {
       lint.linters_by_ft = {
         markdown = { 'markdownlint' },
         cpp = { 'cpplint' },
-        cmake = { 'cmakelang' },
+        cmake = { 'cmakelint' },
         python = { 'pydocstyle', 'pylint' },
         bash = { 'shellcheck' },
       }
