@@ -6,8 +6,6 @@ return { -- Highlight, edit, and navigate code
   opts = {
     ensure_installed = {
       'bash',
-      'cmake',
-      'cpp',
       'gitcommit',
       'diff',
       'dockerfile',
@@ -17,9 +15,7 @@ return { -- Highlight, edit, and navigate code
       'markdown_inline',
       'vim',
       'vimdoc',
-      'helm',
       'json',
-      'ruby',
     },
     -- Autoinstall languages that are not installed
     auto_install = true,

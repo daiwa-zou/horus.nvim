@@ -33,9 +33,6 @@ return {
     formatters_by_ft = {
       lua = { 'stylua' },
       python = { 'isort', 'black' },
-      cpp = { 'clang-format' },
-      cmake = { 'cmakelang' },
-      ruby = { 'rubocop' },
       json = { 'jq' },
       markdown = { 'markdownlint' },
     },
